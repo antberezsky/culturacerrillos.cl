@@ -1,0 +1,15 @@
+.logo-img{
+            width: 165px;
+    height: 95px;
+    margin-left: 30px;
+}
+@media(max-width:500px){
+    .region-header .block-views-blockrrss-block-1{
+        display: none;
+    }
+    .logo-img{
+  
+            width: 50%;
+
+    }
+}

@@ -1,0 +1,2812 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("http://culturacerrillos.cl/themes/cultura_cerrillos/fuentes/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Semibold";
+  src: url("http://culturacerrillos.cl/themes/cultura_cerrillos/fuentes/Lato-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("http://culturacerrillos.cl/themes/cultura_cerrillos/fuentes/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../fuentes/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url("http://culturacerrillos.cl/themes/cultura_cerrillos/fuentes/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: "Lato-BlackItalic";
+  src: url("http://culturacerrillos.cl/themes/cultura_cerrillos/fuentes/Lato-BlackItalic.ttf");
+}
+
+body, p {
+	font-family: "Lato-Regular";
+	font-size: 20px;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	font-family: "Lato-Regular";
+	font-size: 36px;
+	margin-bottom: 0;
+	margin-top: 0;
+	letter-spacing: 6px;
+}
+ 
+h2 {
+	font-family: "Lato-Semibold";
+	font-size: 28px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.container {
+	width: 100%;
+	padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.col-sm-12 {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.branding {
+	display: block;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+	background-color: #ffffff;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border: 0;
+	padding-right: 0;
+}
+
+.navbar-default .navbar-collapse {
+    background-color: #000000;
+    border-bottom: 5px solid #e62579;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #e62579;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: #e62579;
+	border-color: transparent;
+}
+
+.navbar-header {
+	background-color: #e62579;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.txt-inicio-predeterminado {
+	display: none;
+}
+
+.navbar-brand {
+	display: none;
+}
+
+.page-node-type-page article,
+.block-webform {
+	margin-top: 30px;
+}
+
+.highlighted {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	height: auto;
+	border-bottom: 20px solid #e62579;
+}
+
+.region-highlighted .form-group {
+	margin-bottom: 0;
+}
+
+.flexslider {
+	margin: 0;
+	background-color: transparent;
+	border: 0;
+	zoom:0;
+	border-radius: 0;
+}
+
+.fondo-bloque-intro{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	background-color: #e62579;
+	margin-top:20px;
+	margin-bottom: 50px;
+}
+
+.bloque-texto {
+	display: block;
+	overflow:hidden;
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.region-ubicacion {
+	display: block;
+	overflow: hidden;
+    width: auto;
+    height: auto;
+	margin-bottom: 60px;
+}
+
+.region-ubicacion h2,
+.region-feria-permanente h2,
+.region-talleres-culturales h2,
+.region-audiovisual h2,
+.region-registro-fotografico h2,
+.region-galerias-virtuales h2,
+#block-infoforminscripcionlqu h2 {
+	font-family: "Lato-Regular";
+	font-size: 36px;
+}
+
+#block-bloqueinicio .bloque-texto .titulo-1,
+#block-polocultural .bloque-polo-cultural h1,
+.region-ubicacion .block-title,
+.region-feria-permanente .block-title,
+.region-talleres-culturales .block-title,
+.region-audiovisual .block-title,
+.region-registro-fotografico .block-title,
+.region-galerias-virtuales .block-title,
+.region-content .fondo-bloque-cabecera-nosotros .titulo-nosotros,
+#block-infoforminscripcionlqu .block-title {
+	display:block;
+	background-color: #000000;
+	color: #ffffff;
+	width: auto;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 18px;
+	margin-bottom: 40px;
+	letter-spacing: 6px;
+}
+
+.page-node-112  .page-header {
+	display:block;
+	background-color: #000000;
+	color: #ffffff;
+	width: auto;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 18px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	letter-spacing: 6px;
+}
+
+.region-programacion .block-title {
+	display:block;
+	background-color: #e62579;
+	color: #ffffff;
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 40px;
+	font-size: 36px;
+	letter-spacing: 6px;
+}
+
+.region-noticias .block-title {
+	display:block;
+	background-color: #e62579;
+	color: #ffffff;
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 18px;
+	margin-bottom: 40px;
+	font-size: 36px;
+	letter-spacing: 6px;	
+}
+
+.view-programacion  .views-field-title a {
+	font-family: "Lato-Semibold";
+	font-size: 21px;
+	color: #e62579;
+	text-decoration: none;
+}
+
+#block-bloqueinicio .bloque-texto .parrafo-1 {
+	display: block;
+    width: auto;
+	color: #ffffff;
+	letter-spacing: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#block-polocultural {
+	display: block;
+	overflow:hidden;
+	width: auto;
+	height: auto;
+}
+
+.lalo-parra,
+.javiera-carrera {
+	margin-bottom: 60px;
+}
+
+#block-polocultural .bloque-polo-cultural .titulo-lalo-parra,
+#block-polocultural .bloque-polo-cultural .titulo-javiera-carrera {
+	display: block;
+	background-color: #e62579;
+	color: #ffffff;
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 18px;
+	margin-bottom: 20px
+}
+
+.boton-ver-mas p {
+	font-family: "Lato-Bold";
+	font-size: 22px;
+	margin: 0;
+	letter-spacing: 2px;
+}
+
+.boton-ver-mas {
+	display: block;
+	overflow: hidden;
+	width: auto;
+	color: #ffffff;
+	background-color: #e62579;
+	margin-top:25px;
+	text-align: center;
+	padding: 10px;
+}
+
+.footer {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-bottom: 30px;
+	background-color: #000000;
+	border-top: 20px solid #e62579;
+}
+
+.region-footer span {
+	display: none;
+}
+
+.region-programacion {
+	display: none;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.region-noticias {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.view-programacion .views-field-field-fecha-evento {
+	display: block;
+	overflow: hidden;
+	width: auto;
+	font-family: "Lato-Bold";
+	font-size: 24px;
+	background-color: #e62579;
+	color: #fff;
+	padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.view-programacion .views-field-title,
+.view-programacion .views-field-body,
+.view-programacion .views-field-view-node {
+	background-color: #fff;
+	display: block;
+	overflow: hidden;
+	width: auto;
+}
+
+.view-programacion  .views-field-title {
+	padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	line-height: 22px;
+}
+
+.view-programacion .views-field-body,
+.view-programacion .views-field-view-node {
+	padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.view-programacion .views-field-field-imagen-bloque-inicio {
+	margin-bottom: 30px;
+}
+
+.view-programacion .views-field-view-node {
+	border-bottom: 10px solid #e62579;
+	margin-bottom: 30px;
+}
+
+.view-programacion .views-field-view-node a {
+	color: #e62579;
+	text-decoration: none;
+}
+
+.more-link a,
+.view-feria-permanente .view-footer div p,
+.view-talleres-culturales .view-footer div p {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	background-color: #e62579;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px;
+	margin: 0 auto;
+	letter-spacing: 3px;
+}
+
+.region-noticias .views-field-title a {
+	font-family: "Lato-Bold";
+	font-size: 28px;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+    margin-top: 10px;
+    border-bottom: 3px solid #e62579;
+    padding-bottom: 5px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+.region-noticias .views-field-field-resumen-noticia-inicio {
+	font-family: "Lato-Light";
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.region-noticias .views-field-view-node {
+	border-bottom: 3px solid #d6d6d6;
+    margin-bottom: 35px;	
+}
+
+.region-noticias span a {
+	font-family: "Lato-Semibold";
+    font-size: 21px;
+    color: #e62579;
+    text-decoration: none;
+}
+
+.region-noticias .views-field-view-node span {
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.region-feria-permanente .view-content {
+	display: block;
+	margin-bottom: 50px;
+}
+
+.region-feria-permanente {
+    display: block;
+	overflow: hidden;
+    width: 100%;
+    height: auto;
+	margin-bottom: 50px;
+}
+
+.region-feria-permanente .views-field-title {
+	display: block;
+	width: auto;
+	background-color: #117da3;
+	padding: 10px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.region-feria-permanente .views-field-title .field-content {
+	color: #fff;
+	font-family: "Lato-Bold";
+	font-size: 24px;
+	letter-spacing: 6px;
+	text-decoration: none;
+}
+
+.region-feria-permanente .views-field-field-resumen-feria-inicio {
+	display: block;
+	width: auto;
+	font-family: "Lato-Regular";
+	font-size: 20px;
+	color: #fff;
+	background-color: #117da3;
+	padding: 15px;
+	letter-spacing: 2px;
+}
+
+.region-feria-permanente .views-field-view-node {
+	display:block;
+	width: auto;
+	background-color: #117da3;
+	padding: 15px;
+}
+.region-feria-permanente .views-field-view-node a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.region-feria-permanente .view-display-id-block_2 .views-field-title,
+.region-feria-permanente .view-display-id-block_2 .views-field-field-resumen-feria-inicio,
+.region-feria-permanente .view-display-id-block_2 .views-field-view-node {
+	background-color: #ff7f00;
+}
+
+.region-feria-permanente .view-display-id-block_3 .views-field-title,
+.region-feria-permanente .view-display-id-block_3 .views-field-field-resumen-feria-inicio,
+.region-feria-permanente .view-display-id-block_3 .views-field-view-node {
+	background-color: #5c9305;
+}
+
+.talleres_culturales {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+#block-talleresculturales p {
+	font-family: "Lato-Regular";
+    font-size: 20px;
+	letter-spacing: 2px;
+	padding: 10px;
+}
+
+.region-talleres-culturales .view-content {
+	display: block;
+	overflow: hidden;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-1 .views-field-title,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-1 .views-field-field-segundo-titulo {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	background-color: #fc0606;
+	color: #fff;
+	padding: 2px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-2 .views-field-title,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-2 .views-field-field-segundo-titulo {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	background-color: #ff7f00;
+	color: #fff;
+	padding: 2px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-3 .views-field-title,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-3 .views-field-field-segundo-titulo {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	background-color: #5c9305;
+	color: #fff;
+	padding: 2px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-4 .views-field-title,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-4 .views-field-field-segundo-titulo {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	background-color: #117da3;
+	color: #fff;
+	padding: 2px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-5 .views-field-title,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-5 .views-field-field-segundo-titulo {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	background-color: #941b80;
+	color: #fff;
+	padding: 2px;
+}
+
+.region-talleres-culturales .views-field-title .field-content,
+.region-talleres-culturales .views-field-field-segundo-titulo .field-content {
+	font-family: "Lato-Light";
+    font-size: 36px;
+	letter-spacing: 6px;
+	margin-left: 25px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-1 .views-field-title,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-2 .views-field-title,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-3 .views-field-title,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-4 .views-field-title,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-5 .views-field-title {
+	margin-bottom: 10px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-1 .views-field-field-segundo-titulo,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-2 .views-field-field-segundo-titulo,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-3 .views-field-field-segundo-titulo,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-4 .views-field-field-segundo-titulo,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-5 .views-field-field-segundo-titulo{
+	margin-bottom: 50px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-1,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-2,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-3,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-4 {
+	margin-bottom: 50px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-5 .views-field-field-icono-bloque-inicio {
+	margin-bottom: 50px;
+}
+
+#block-talleresculturales {
+	margin-bottom: 50px;
+}
+
+.region-audiovisual,
+.region-registro-fotografico,
+.region-galerias-virtuales {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.view-registro-audiovisual,
+.view-registro-fotografico,
+.view-galerias-virtuales,
+.view-registro-fotografico .view-content,
+.view-registro-audiovisual .view-content,
+.view-galerias-virtuales .view-content {
+	display: block;
+	overflow: hidden;
+}
+
+.view-registro-audiovisual .views-row,
+.view-registro-fotografico .views-row,
+.view-galerias-virtuales .views-row {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.view-registro-audiovisual .views-field-body{
+	font-family: "Lato-Light";
+    font-size: 20px;
+	display: block;
+	overflow:hidden;
+	margin-bottom: 10px;
+	border-bottom: 10px solid #e62579;
+}
+
+.view-registro-fotografico .views-field-body,
+.view-galerias-virtuales .views-field-body  {
+	font-family: "Lato-Light";
+    font-size: 20px;
+	display: block;
+	overflow:hidden;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #b7b7b7;
+}
+
+.view-registro-fotografico .views-field-title  {
+	font-family: "Lato-Bold";
+    font-size: 28px;
+	display:block;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #e62579;
+}
+
+.view-galerias-virtuales .views-field-title a {
+	font-family: "Lato-Bold";
+    font-size: 28px;
+	display:block;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #e62579;
+	text-decoration: none;
+}
+
+.view-registro-fotografico .views-field-view-node a {
+	display: none;
+}
+
+.view-registro-fotografico .views-field-view-node,
+.view-galerias-virtuales .views-field-view-node {
+	display: block;
+	overflow: hidden;
+	width: 100px;
+	height: 3px;
+	background-color: #e62579;
+	margin-bottom: 10px;
+}
+
+.path-frontpage .js-quickedit-page-title {
+	display: none;
+}
+
+.branding  {
+	display:block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > .is-active {
+    color: #fff;
+    background-color: #e62579;
+	padding: 26px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #fff;
+    background-color: #e62579;
+	padding: 26px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    padding: 26px;
+    margin-right: 25px;
+}
+
+.view-noticias .views-field-title {
+	line-height: 30px;
+}
+
+.region-header .logo {
+	display:block;
+	overflow:hidden;
+	width:100%;
+}
+
+.region-header .logo img {
+	width: auto;
+}
+
+.region-header .block-views-blockrrss-block-1 {
+	display:block;
+	overflow:hidden;
+	width: 370px;
+	margin: 0 auto;
+}
+
+.view-rrss .views-row {
+	display: block;
+	overflow:hidden;
+	float: left;
+}
+
+.view-rrss .views-row-1,
+.view-rrss .views-row-2,
+.view-rrss .views-row-3 {
+	margin-right: 15px;
+}
+
+.footer .info-cultura-footer,
+.footer .info-muni-footer {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.footer .logo-cultura,
+.footer .logo-muni {
+	display: block;
+	overflow: hidden;
+	width: auto;
+	border-bottom: 5px solid #e62579;
+	margin-right: 10px;
+}
+
+.footer .info-asociacion,
+.footer .info-muni {
+	display: block;
+	overflow: hidden;
+	width: auto;
+	color: #fff;
+}
+
+.footer .info-asociacion .titulo-cultura {
+	font-family: "Lato-Bold";
+    font-size: 24px;
+	display:block;
+	overflow:hidden;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	color: #e62579;
+}
+
+.footer .info-muni .titulo-muni {
+	font-family: "Lato-Bold";
+    font-size: 24px;
+	display:block;
+	overflow:hidden;
+	letter-spacing: 1px;
+	color: #e62579;
+}
+
+.footer .info-asociacion p,
+.footer .info-muni p {
+	font-family: "Lato-Regular";
+    font-size: 16px;
+	display:block;
+	overflow:hidden;
+	margin: 0;
+}
+
+.footer .linea-division {
+	display:block;
+	overflow:hidden;
+	width: 30%;
+	height: 5px;
+	background-color: #e62579;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+.footer .link-muni a {
+	font-family: "Lato-Bold";
+    font-size: 22px;
+	color: #fff;
+	text-decoration: none;
+	display:block;
+	overflow:hidden;
+	width: 250px;
+	background-color: #e62579;
+	text-align: center;
+    padding: 15px;
+	letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.path-node .region-programacion,
+.path-node .region-noticias,
+.path-node .region-ubicacion {
+	display:none;
+}
+
+.path-node h1 {
+	display:block;
+	overflow:hidden;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #000;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	padding-top: 25px;
+}
+
+.page-node-type-programacion .field--name-field-fecha-evento {
+	font-family: "Lato-Black";
+    font-size: 28px;
+	display:block;
+	overflow: hidden;
+	color: #e62579;
+	margin-bottom: 20px;
+}
+
+.path-node .field--name-field-resumen {
+	font-family: "Lato-BlackItalic";
+    font-size: 20px;
+	display:block;
+	overflow:hidden;
+	margin-bottom: 30px;
+}
+
+.path-node .field--name-field-resumen-noticia-inicio {
+	font-family: "Lato-BlackItalic";
+    font-size: 20px;
+	display:block;
+	overflow:hidden;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.path-node .field--type-image {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
+}
+
+.file-icon, .file-size {
+	display:none;
+}
+
+.path-node .field--name-field-archivo-adjunto a {
+	font-family: "Lato-Bold";
+    font-size: 24px;
+	display:block;
+	overflow:hidden;
+	width: 89%;
+	background-color: #e62579;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.path-node .region-content {
+	display:block;
+	overflow:hidden;
+	margin-bottom: 100px;
+}
+
+.page-node-type-noticias .field--name-field-imagen-detalle-noticia {
+	display:block;
+	overflow:hidden;
+}
+
+.page-node-type-noticias .field--name-body {
+	margin-bottom: 100px;
+}
+
+.fondo-bloque-cabecera-nosotros {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	background-color: #ff7f00;
+	color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fondo-bloque-cabecera-nosotros .parrafo-nosotros,
+.fondo-bloque-socios .parrafo-1 {
+	padding: 15px;
+}
+
+.fondo-bloque-cabecera-nosotros h1 {
+	padding-top: 0;
+	letter-spacing: 6px;
+}
+
+.fondo-bloque-cabecera-socios {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	background-color: #577a13;
+	color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.page-node-34 .page-header {
+	display:none;
+}
+
+#block-bloquemision,
+#block-bloquevision,
+.menu-footer-nosotros {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-6 .view-content {
+    display: none;
+}
+
+.menu-footer-nosotros .titulo-menu-nosotros h1,
+.menu-footer-nosotros .boton-directorio h1,
+.menu-footer-nosotros .boton-nuestro-equipo h1 {
+	display:block;
+	overflow:hidden;
+	width:auto;
+	border-bottom: none;
+	letter-spacing: 6px;
+	color: #fff;
+	padding-top:0; 
+}
+
+.menu-footer-nosotros .titulo-menu-nosotros,
+.block-views-blockpersonas-block-3 .block-title {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	background-color: #e62579;
+	padding: 15px;
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+.block-views-blockartista-de-la-semana-block-1 {
+	display:block;
+	overflow: hidden;
+	width: auto;
+	padding: 15px;
+}
+
+.block-views-blockartista-de-la-semana-block-1 .views-field-title {
+	font-family: "Lato-Regular";
+    font-size: 30px;
+	display:block;
+	overflow:hidden;
+	width: auto;
+	background-color: #e62579;
+	color: #fff;
+	padding: 15px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	letter-spacing: 6px;
+}
+
+.menu-footer-nosotros .boton-directorio a,
+.menu-footer-nosotros .boton-nuestro-equipo a {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	background-color: #000;
+	padding:15px;
+	margin-bottom: 50px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.menu-footer-nosotros .boton-directorio-activo,
+.menu-footer-nosotros .boton-nuestro-equipo-activo {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	background-color: #e62579;
+	color: #fff;
+	padding:15px;
+	margin-bottom: 50px;
+}
+
+.path-directorio .page-header,
+.path-nuestro-equipo .page-header {
+	display:none;
+}
+
+.path-directorio .menu-footer-nosotros,
+.path-nuestro-equipo .menu-footer-nosotros {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+
+#block-bloquemision .block-title,
+#block-bloquevision .block-title {
+	font-family: "Lato-Regular";
+    font-size: 36px;
+	display:block;
+	overflow:hidden;
+	width: auto;
+	background-color: #000;
+	color: #fff;
+	padding: 15px;
+	letter-spacing: 6px;
+}
+
+#block-bloquemision .field--name-body,
+#block-bloquevision .field--name-body {
+	display:block;
+	overflow:hidden;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+#block-bloquemision .linea-footer-mision,
+#block-bloquevision .linea-footer-vision{
+	display:block;
+	overflow:hidden;
+	width: 30%;
+	height: 5px;
+	background-color: #e62579;
+	margin-top: 30px;
+}
+
+.view-personas {
+	display:block;
+	overflow:hidden;
+	width:auto;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.view-personas .view-content {
+	display:block;
+	overflow:hidden;
+}
+
+.view-personas .views-row {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.view-personas .views-row-1 .views-field-field-cargo-en-nuestro-equipo-,
+.view-personas .views-row .views-field-field-cargo-en-nuestro-equipo-
+.view-personas .views-row-1 .views-field-field-cargo-en-directorio,
+.view-personas .views-row .views-field-field-cargo-en-directorio,
+.view-personas .views-row .views-field-field-cargo-en-nuestro-equipo- {
+	font-family: "Lato-Bold";
+    font-size: 20px;
+	display:block;
+	overflow:hidden;
+	width: auto;
+	background-color: #000;
+	color: #fff;
+	padding: 10px 15px 10px 15px;
+    letter-spacing: 2px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.view-personas .views-row-1 .views-field-title,
+.view-personas .views-row .views-field-title {
+	font-family: "Lato-Bold";
+    font-size: 20px;
+	display:block;
+	overflow: hidden;
+	width: auto;
+	padding: 0 15px 0 15px;
+}
+
+.view-personas .views-row-1 .views-field-field-correo-electronico-de-nues a,
+.view-personas .views-row .views-field-field-correo-electronico-de-nues a {
+	font-family: "Lato-Regular";
+    font-size: 16px;
+	display:block;
+	overflow:hidden;
+	width: auto;
+	color: #e62579;
+	text-decoration: none;
+	padding: 0 15px 0 15px;
+}
+
+.view-personas .views-row-1 .views-field-field-cargo-particular,
+.view-personas .views-row .views-field-field-cargo-particular {
+	font-family: "Lato-Regular";
+    font-size: 20px;
+	display:block;
+	overflow:hidden;
+	width: auto;
+	color: #e62579;
+	text-decoration: none;
+	padding: 0 15px 0 15px;
+}
+
+.view-personas .views-row-1 .views-field-view-node a,
+.view-personas .views-row .views-field-view-node a {
+	display:none;
+}
+
+.view-personas .views-row-1 .views-field-view-node,
+.view-personas .views-row .views-field-view-node {
+	display:block;
+	overflow:hidden;
+	width: 30%;
+	height: 3px;
+	background-color: #e62579;
+	margin: 10px 15px 10px 15px;
+}
+
+.path-directorio .view-personas .views-row-1 .views-field-view-node {
+	display:block;
+	overflow:hidden;
+	width: 10%;
+	height: 3px;
+	background-color: #e62579;
+	margin: 10px 15px 10px 15px;
+}
+
+.view-personas .views-row-1 .views-field-body,
+.view-personas .views-row .views-field-body {
+	display:block;
+	overflow:hidden;
+	width:auto;
+	margin: 0 15px 0 15px;
+}
+
+.fondo-bloque-socios {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	height: auto;
+	background-color: #577a13;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 15px;
+}
+
+.fondo-bloque-programacion {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	height: auto;
+	background-color: #117DA3;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 15px;
+}
+
+.fondo-bloque-patrimonio {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	height: auto;
+	background-color: #4F034D;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 15px;
+}
+
+.fondo-bloque-formacion {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	height: auto;
+	background-color: #FC0606;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 15px;
+}
+
+.page-node-35 .bloque-texto,
+.page-node-36 .bloque-texto,
+.page-node-37 .bloque-texto,
+.page-node-38 .bloque-texto {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+	margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.page-node-35 .titulo-1 h1,
+.page-node-36 .titulo-1 h1,
+.page-node-37 .titulo-1 h1,
+.page-node-38 .titulo-1 h1 {
+	display:block;
+	background-color: #000000;
+	color: #ffffff;
+	width: auto;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 18px;
+	margin-bottom: 40px;
+	letter-spacing: 6px;
+}
+
+.page-node-132 h1 {
+	display:block;
+	background-color: #000000;
+	color: #ffffff;
+	width: auto;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 18px;
+	margin-bottom: 40px;
+	letter-spacing: 4px;
+}
+
+.page-node-132 .highlighted {
+	margin-bottom: 30px;
+}
+
+.page-node-35 .page-header,
+.page-node-36 .page-header,
+.page-node-37 .page-header,
+.page-node-38 .page-header {
+	display:none;
+}
+
+.block-views-blockpersonas-block-3 {
+	display: block;
+	overflow: hidden;
+	width: auto;
+}
+
+.block-views-blockpersonas-block-3 .view-personas .views-row {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	height: auto;
+}
+
+.block-views-blockpersonas-block-3 .view-personas .views-row .views-field-view-node {
+	width: auto;
+}
+
+.block-views-blockpersonas-block-3 h2 {
+	font-family: "Lato-Regular";
+    font-size: 36px;
+	display:block;
+	overflow:hidden;
+	width:auto;
+	border-bottom: none;
+	letter-spacing: 6px;
+	color: #fff;
+	padding-top:0; 
+}
+
+.block-views-blockpersonas-block-3 .view-personas .views-field-title {
+	font-family: "Lato-Regular";
+    font-size: 20px;
+    display: block;
+    overflow: hidden;
+    width: auto;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.block-views-blockpersonas-block-3 .view-personas .views-field-view-node {
+	display:block;
+	overflow: hidden;
+	margin: 10px 15px 10px 0px;
+}
+
+.block-views-blockpersonas-block-3 .view-personas .views-field-field-unidad-que-representa-soci,
+.block-views-blockpersonas-block-3 .view-personas .views-field-field-cargo-particular {
+	font-family: "Lato-Bold";
+    font-size: 20px;
+    display: block;
+    overflow: hidden;
+    width: auto;
+	padding: 0;
+}
+
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.region-footer .block-views-blockrrss-block-2 {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.region-footer .block-views-blockrrss-block-2 .block-title {
+	font-family: "Lato-Bold";
+    font-size: 22px;
+    display: block;
+    overflow: hidden;
+    letter-spacing: 2px;
+	color: #e62579;
+	margin-bottom: 10px;
+	padding: 10px;
+	padding-left: 0;
+}
+
+.region-footer .block-webform-block {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.path-libros-que-unen .block-webform-block,
+.page-node-112 .block-webform-block {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.region-footer .block-webform-block .block-title {
+	font-family: "Lato-Bold";
+    font-size: 22px;
+    display: block;
+    overflow: hidden;
+    letter-spacing: 2px;
+	color: #e62579;
+	margin-bottom: 10px;
+	padding: 10px;	
+	padding-left: 0;
+}
+
+.region-footer .block-webform-block label {
+	color: #fff;
+	font-family: "Lato-Light";
+    font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.region-footer .block-webform-block .webform-button--submit,
+.path-libros-que-unen .block-webform-block .webform-button--submit,
+.page-node-112 .block-webform-block .webform-button--submit {
+	color: #fff;
+	font-family: "Lato-Bold";
+    font-size: 18px;
+	letter-spacing: 2px;
+	background-color: #e62579;
+	float: right;
+	padding: 10px 15px 10px 15px;
+	border-color: transparent;
+	border-radius: 0;
+}
+
+.region-footer #block-logoculturacerrillos {
+	display:block;
+	overflow:hidden;
+	width: auto;
+}
+
+.region-footer .view-rrss .view-content {
+	display:block;
+	overflow:hidden;
+}
+
+.region-libros-que-unen {
+	display: block;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.libros_que_unen {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	padding: 15px;
+}
+
+.libros_que_unen .view-libros-que-unen .view-content {
+	display:block;
+	overflow: hidden;
+}
+
+#block-logolqu {
+	display:block;
+	overflow:hidden;
+	margin-bottom: 30px;
+}
+
+.view-libros-que-unen {
+	display:block;
+	overflow: hidden;
+	margin-bottom:50px;
+	margin-top: 50px;	
+}
+
+.view-libros-que-unen .views-row {
+	display:block;
+	overflow:hidden;
+	width: 375px;
+	margin-bottom: 50px;
+}
+
+.view-libros-que-unen .views-row-2 .views-field-field-imagen-del-libro {
+	margin-bottom: 30px;
+}
+
+.view-libros-que-unen .views-row-2 .views-field-title {
+	margin-bottom: 31px;
+}
+
+.editorial-lalo-parra .views-row-2 .views-field-field-imagen-del-libro {
+	margin-bottom: 0;
+}
+
+.editorial-lalo-parra .views-row-2 .views-field-title {
+	margin-bottom: 15px;
+}
+
+.view-libros-que-unen .views-field-field-imagen-del-libro {
+	display:block;
+	overflow:hidden;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.view-libros-que-unen .views-field-title {
+	font-family: "Lato-Regular";
+    font-size: 22px;
+	display:block;
+	overflow:hidden;
+	text-align: center;
+	color: #fff;
+	background-color: #00A099;
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.editorial-lalo-parra .views-field-title {
+	background-color: #000;
+}
+
+.view-libros-que-unen .views-field-body {
+	display:block;
+	overflow:hidden;
+	text-align:center;
+}
+
+.view-libros-que-unen .views-field-field-seleccione-a-que-nivel-per {
+	font-family: "Lato-Regular";
+    font-size: 22px;
+	display:block;
+	overflow:hidden;
+	text-align: center;
+	color: #fff;
+	background-color: #e62579;
+	padding: 15px;
+}
+
+.path-libros-que-unen .page-header,
+.path-lalo-parra-editorial .page-header {
+	padding-bottom: 0;
+    margin: 0;
+    border-bottom: 0;
+}
+
+.region-footer .block-webform .webform-submission-contactanos-form input,
+.region-footer .block-webform .webform-submission-contactanos-form textarea {
+	border-radius: 0;
+	border-color: transparent;
+	background-color: #fff;
+	border-bottom: 0;
+}
+
+.path-libros-que-unen .block-webform-block input,
+.page-node-112 .block-webform-block input,
+.page-node-112 .block-webform-block textarea {
+	border-radius: 0;
+	background-color: transparent;
+	border-bottom: 2px solid #e62579;
+	-webkit-box-shadow: none;
+}
+
+.path-libros-que-unen .form-control,
+.page-node-112 .form-control {
+	border: 0;
+}
+
+input:focus, input.form-control:focus,
+textarea:focus, textarea.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.flex-direction-nav a {
+	height: 45px;
+}
+
+.page-node-14 .page-header {
+	font-family: "Lato-Regular";
+    font-size: 36px;
+	color: #fff;
+	background-color: #117da3;
+	display:block;
+	overflow:hidden;
+	width: auto;
+	padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 18px;
+    margin-bottom: 30px;
+	margin-top: 30px;
+    letter-spacing: 6px;
+	border-bottom: 0;
+}
+
+.page-node-16 .page-header {
+	font-family: "Lato-Regular";
+    font-size: 36px;
+	color: #fff;
+	background-color: #ff7f00;
+	display:block;
+	overflow:hidden;
+	width: auto;
+	padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 18px;
+    margin-bottom: 30px;
+	margin-top: 30px;
+    letter-spacing: 6px;
+	border-bottom: 0;
+}
+
+.page-node-17 .page-header {
+	font-family: "Lato-Regular";
+    font-size: 36px;
+	color: #fff;
+	background-color: #5c9305;
+	display:block;
+	overflow:hidden;
+	width: auto;
+	padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 18px;
+    margin-bottom: 30px;
+	margin-top: 30px;
+    letter-spacing: 6px;
+	border-bottom: 0;
+}
+
+.page-node-14 .field--name-field-imagen-nodo-tipo-feria img,
+.page-node-16 .field--name-field-imagen-nodo-tipo-feria img,
+.page-node-17 .field--name-field-imagen-nodo-tipo-feria img {
+	display:block;
+	overflow:hidden;
+	margin: 0 auto;
+}
+
+#block-bloqueacademiadeformacionartistica,
+#block-bloqueorquestainfantilyjuvenildecerrillos,
+#block-bloquetalleresculturales,
+#block-bloquediadelpatrimonio2020,
+#block-bloquecerrillosvidadebarrios,
+#block-bloquecomunidades,
+#block-bloquepuntoslectores {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	height: auto;
+	padding: 15px;
+	margin-bottom: 50px;
+}
+
+#block-bloqueacademiadeformacionartistica h2,
+#block-bloqueorquestainfantilyjuvenildecerrillos h2,
+#block-bloquetalleresculturales h2,
+#block-bloquediadelpatrimonio2020 h2,
+#block-bloquecerrillosvidadebarrios h2,
+#block-bloquecomunidades h2,
+#block-bloquepuntoslectores h2,
+.block-views-blockartista-de-la-semana-block-1 h2,
+#block-bloqueridertecnico h2 {
+	font-family: "Lato-Regular";
+    font-size: 36px;
+	display:block;
+	background-color: #000000;
+	color: #ffffff;
+	width: auto;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 18px;
+	margin-bottom: 40px;
+	letter-spacing: 6px;
+}
+
+#block-bloqueridertecnico {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	padding: 15px;
+}
+
+#block-bloqueridertecnico .rider-tecnico a,
+#block-bloqueeditoriallaloparra .link-editorial a {
+	font-family: "Lato-Regular";
+    font-size: 26px;
+	display:block;
+	overflow:hidden;
+	background-color: #e62579;
+	color: #fff;
+	width: auto;
+	padding: 15px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#block-bloqueacademiadeformacionartistica .img-academia,
+#block-bloqueorquestainfantilyjuvenildecerrillos .img-orquesta,
+#block-bloquetalleresculturales .img-talleres-culturales,
+#block-bloquediadelpatrimonio2020 .img-dia-patrimonio,
+#block-bloquecerrillosvidadebarrios .img-cerrillos-barrios,
+#block-bloquecomunidades .img-comunidades,
+#block-bloquepuntoslectores .img-puntos-lectores {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	margin-bottom: 30px;
+}
+
+.region-highlighted video {
+	width: 100%;
+	height: auto;
+}
+
+#block-bloquediadelpatrimonio2020 .video-embed-field-responsive-video iframe,
+#block-bloquecomunidades .video-embed-field-responsive-video iframe {
+	width: auto;
+	height: auto;
+	display:block;
+	overflow: hidden;
+}
+
+#block-bloquediadelpatrimonio2020 .video-embed-field-responsive-video:after,
+#block-bloquecomunidades .video-embed-field-responsive-video:after {
+	padding-bottom: 30%;
+	margin-top: 50px;
+}
+
+.link-zoom {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	background-color: #e62579;
+	margin: 0 auto;
+}
+
+.link-zoom p {
+	font-family: "Lato-Bold";
+    font-size: 24px;
+	text-align: center;
+	color: #fff;
+	padding: 15px;
+}
+
+.link-zoom a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.block-views-blockson-de-cerrillos-block-1 .block-title {
+	font-family: "Lato-Regular";
+    font-size: 36px;
+	display: block;
+    overflow: hidden;
+    width: auto;
+    background-color: #e62579;
+    padding: 15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+	color: #FFF;
+	letter-spacing: 4px;
+}
+
+.view-son-de-cerrillos .view-content {
+	display:block;
+	overflow:hidden;
+}
+
+.view-son-de-cerrillos .views-row {
+	display:block;
+	overflow:hidden;
+	width: 370px;
+	margin-top: 30px;
+	padding: 5px;
+}
+
+.view-son-de-cerrillos .views-field-title {
+	font-family: "Lato-Regular";
+    font-size: 20px;
+	display:block;
+	overflow:hidden;
+	background-color: #e62579;
+	color: #FFF;
+	padding: 15px;
+	width: auto;
+}
+
+#block-bloqueeditoriallaloparra {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	margin-bottom: 50px;
+	padding: 15px;
+}
+
+.editorial_lalo_parra {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	padding: 15px;
+	border-top: 1px solid #e62579;
+}
+
+.editorial_lalo_parra .block-views-blocklibros-que-unen-block-2 .views-field-field-imagen-del-libro {
+    display: block;
+    overflow: hidden;
+	margin-bottom: 30px;
+	float: none;
+}
+
+.editorial_lalo_parra .block-views-blocklibros-que-unen-block-2 .views-field-title {
+	display:block;
+	overflow:hidden;
+	width: auto;
+	font-size: 22px;
+    letter-spacing: 4px;
+	float:none;
+}
+
+.bloque-videos-vidadebarrios,
+.pagina-videos-vidadebarrios {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+}
+
+.bloque-videos-vidadebarrios .views-row {
+	display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    float: none;
+}
+
+.bloque-videos-vidadebarrios .views-row .views-field-title,
+.pagina-videos-vidadebarrios .views-row .views-field-title {
+	display:block;
+	overflow:hidden;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+
+.page-node-177 img {
+	margin: 0 auto;
+}
+
+.bloque-videos-11-septiembre .views-row .field--item video {
+	display: block;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.bloque-videos-11-septiembre .views-row {
+	display: block;
+	overflow: hidden;
+	height: auto;
+	margin-top: 20px;
+}
+
+.block-views-blockprogramacion-block-3 .bloque-videos-11-septiembre .views-field-title {
+	display: block;
+	overflow: hidden;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+
+
+
+@media only screen and (min-width: 1270px) {
+	
+.bloque-videos-11-septiembre .views-row {
+	float: left;
+	height: 300px;
+}
+	
+
+.off-canvas-wrapper {
+    display: none;
+}
+	
+.region-editorial-lalo-parra {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.block-views-blocklibros-que-unen-block-2 .editorial-lalo-parra .views-row {
+	display:block;
+	overflow:hidden;
+	width: 22%;
+	float:left;
+}
+
+.block-views-blocklibros-que-unen-block-2 .editorial-lalo-parra .views-row-1,
+.block-views-blocklibros-que-unen-block-2 .editorial-lalo-parra .views-row-2,
+.block-views-blocklibros-que-unen-block-2 .editorial-lalo-parra .views-row-3 {
+	margin-right: 20px;
+}
+	
+#block-bloqueeditoriallaloparra {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+#block-bloqueeditoriallaloparra .link-editorial a {
+	width: 35%;
+	margin: 0 auto;
+}
+	
+.view-son-de-cerrillos .view-content {
+	width: 1270px;
+}
+
+.view-son-de-cerrillos .views-row {
+	float:left;
+	height: 300px;
+	width: 32%;
+}
+
+.view-son-de-cerrillos .views-row-2,
+.view-son-de-cerrillos .views-row-5 {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+	
+.link-zoom {
+	width: 55%;
+	margin-top: 50px;
+}
+	
+#block-bloquediadelpatrimonio2020 .video-embed-field-responsive-video iframe {
+	width: 654px;
+	height: 365px;
+	margin: 0 auto;
+}
+
+#block-bloquecomunidades .video-embed-field-responsive-video iframe {
+	width: 654px;
+	height: 365px;
+	margin: 0 auto;
+}
+
+#block-bloquecomunidades .field--name-body,
+#block-bloquecomunidades .field--name-field-enlace-video {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+}
+#block-bloquecomunidades .video-embed-field-responsive-video:after {
+	padding-bottom: 70%;
+}
+
+#block-bloquecomunidades .field--name-field-enlace-video .field--item {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 45%;
+}
+
+#block-bloquecomunidades .field--name-field-enlace-video .odd {
+	margin-right: 10%;
+}
+
+	
+.block-views-blockartista-de-la-semana-block-1,
+#block-bloqueridertecnico {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+#block-bloqueridertecnico .img-rider-tecnico {
+	display:block;
+	overflow:hidden;
+	width: 1024px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+#block-bloqueridertecnico .rider-tecnico a {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.block-views-blockartista-de-la-semana-block-1 .views-field-field-video-artista-del-mes {
+	display:block;
+	overflow:hidden;
+	margin: 0 auto;
+	width: 800px;
+	height: 470px;
+}
+	
+#block-bloqueacademiadeformacionartistica,
+#block-bloquetalleresculturales,
+#block-bloqueorquestainfantilyjuvenildecerrillos,
+#block-bloquediadelpatrimonio2020,
+#block-bloquecerrillosvidadebarrios,
+#block-bloquecomunidades,
+#block-bloquepuntoslectores {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+#block-bloqueacademiadeformacionartistica .img-academia,
+#block-bloqueorquestainfantilyjuvenildecerrillos .img-orquesta,
+#block-bloquetalleresculturales .img-talleres-culturales,
+#block-bloquediadelpatrimonio2020 .img-dia-patrimonio,
+#block-bloquecerrillosvidadebarrios .img-cerrillos-barrios,
+#block-bloquecomunidades .img-comunidades,
+#block-bloquepuntoslectores .img-puntos-lectores {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#block-bloqueacademiadeformacionartistica p,
+#block-bloqueorquestainfantilyjuvenildecerrillos p,
+#block-bloquetalleresculturales p,
+#block-bloquediadelpatrimonio2020 p,
+#block-bloquecerrillosvidadebarrios p,
+#block-bloquecomunidades p,
+#block-bloquepuntoslectores p {
+	margin-top: 30px;
+}
+	
+.highlighted {
+    width: auto;
+    height: auto;
+}
+	
+.path-libros-que-unen .block-webform-block,
+.page-node-112 .block-webform-block {
+	width: 70%;
+}
+	
+	
+.region-libros-que-unen {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.view-libros-que-unen .view-content {
+	display:block;
+	overflow:hidden;
+}
+
+.view-libros-que-unen .views-row {
+	float:left;
+	width: 20%;
+}
+
+.editorial-lalo-parra .views-row {
+	float:none;
+	width: auto;
+}
+
+.view-libros-que-unen .views-row-1,
+.view-libros-que-unen .views-row-2,
+.view-libros-que-unen .views-row-3,
+.view-libros-que-unen .views-row-5,
+.view-libros-que-unen .views-row-6 {
+	margin-right: 80px;
+}
+
+.editorial-lalo-parra .views-row-1,
+.editorial-lalo-parra .views-row-2,
+.editorial-lalo-parra .views-row-3,
+.editorial-lalo-parra .views-row-5,
+.editorial-lalo-parra .views-row-6 {
+	margin-right: 0;
+}
+
+.editorial-lalo-parra .views-field-field-imagen-del-libro{
+	display:block;
+	overflow:hidden;
+	float:left;
+}
+
+.editorial-lalo-parra .views-field-title {
+	display:block;
+	overflow: hidden;
+	float: left;
+	margin-left: 15px;
+	margin-top: 0;
+	font-size: 28px;
+	letter-spacing: 4px;
+	width: auto;
+}
+
+.editorial-lalo-parra .views-field-body {
+	display:block;
+	overflow:hidden;
+	float:left;
+	width: 80%;
+	text-align:left;
+	margin-left: 15px;
+}
+	
+.region-footer #block-logoculturacerrillos {
+	width: 60%;
+	float: left;
+}
+
+.region-footer .block-views-blockrrss-block-2 {
+	width: 40%;
+}
+
+.region-footer .block-webform-block {
+	width: 40%;
+}
+	
+.footer .linea-division {
+    width: 10%;
+    margin-left: 65px;
+}
+	
+.footer .logo-cultura,
+.footer .logo-muni {
+	display: block;
+	overflow: hidden;
+	width: auto;
+	float: left;
+	border-bottom: 0;
+	border-right: 5px solid #e62579;
+	margin-right: 30px;
+	padding-right: 30px;
+}
+	
+.block-views-blockpersonas-block-3 {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.block-views-blockpersonas-block-3 .block-title {
+	width: 40%;
+}
+	
+.block-views-blockpersonas-block-3 .view-personas .views-row {
+	width: 21%;
+	height: 450px;
+	float: left;
+}
+
+.block-views-blockpersonas-block-3 .view-personas .views-row-1,
+.block-views-blockpersonas-block-3 .view-personas .views-row-2,
+.block-views-blockpersonas-block-3 .view-personas .views-row-3,
+.block-views-blockpersonas-block-3 .view-personas .views-row-5,
+.block-views-blockpersonas-block-3 .view-personas .views-row-6,
+.block-views-blockpersonas-block-3 .view-personas .views-row-7,
+.block-views-blockpersonas-block-3 .view-personas .views-row-9,
+.block-views-blockpersonas-block-3 .view-personas .views-row-10,
+.block-views-blockpersonas-block-3 .view-personas .views-row-11 {
+	margin-right: 50px;
+}
+
+	
+	
+.fondo-bloque-socios {
+	display: block;
+    overflow: hidden;
+    width: 100%;
+	height: 600px;
+	background-image: url(../images/FONDO-BLOQUES-CABECERA-SOCIOS.png);
+	background-repeat: no-repeat;
+	background-color:transparent;
+	margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+	padding: 0;
+}
+
+.fondo-bloque-programacion {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 600px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding: 0;
+	background-image: url(http://culturacerrillos.cl/themes/cultura_cerrillos/images/FONDO-BLOQUES-CABECERA-DIR-PROGRAMACION.png);
+	background-repeat: no-repeat;
+	background-color:transparent;
+}
+
+.fondo-bloque-patrimonio {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 600px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding: 0;
+	background-image: url(http://culturacerrillos.cl/themes/cultura_cerrillos/images/FONDO-BLOQUE-PATRIMONIO.png);
+	background-repeat: no-repeat;
+	background-color:transparent;	
+}
+
+.fondo-bloque-formacion {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 600px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding: 0;
+	background-image: url(http://culturacerrillos.cl/themes/cultura_cerrillos/images/FONDO-BLOQUES-FORMACION.png);
+	background-repeat: no-repeat;
+	background-color:transparent;
+}
+	
+.view-personas .views-row {
+	display:block;
+	overflow: hidden;
+	width: 20%;
+	height: 555px;
+	float: left;
+}
+	
+.path-directorio .view-personas .views-row-1 {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height:auto;
+	margin-bottom: 50px;
+}
+
+.view-personas .views-row .views-field-field-cargo-en-directorio {
+	width: 250px;
+}
+
+.view-personas .views-row .views-field-view-node {
+	width: 30%;
+}
+	
+.path-directorio .view-personas .views-row-1 .views-field-field-fotografia-persona {
+	display:block;
+	overflow: hidden;
+	width: 22%;
+	float: left;
+}
+
+.path-directorio .view-personas .views-row-4 {
+	margin-right: 80px;
+}
+
+.path-directorio .view-personas .views-row-5 {
+	margin-right: 0;
+}
+
+.view-personas .views-row-1,
+.view-personas .views-row-2,
+.view-personas .views-row-3,
+.view-personas .views-row-5,
+.view-personas .views-row-6,
+.view-personas .views-row-7,
+.view-personas .views-row-9,
+.view-personas .views-row-10,
+.view-personas .views-row-11 {
+	margin-right: 80px;
+}
+
+	
+.fondo-bloque-cabecera-nosotros {
+	height: 600px;
+	background-image: url(../images/FONDO-BLOQUES-CABECERA-NOSOTROS.png);
+	background-repeat: no-repeat;
+	background-color:transparent;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+#block-bloquemision,
+#block-bloquevision,
+.menu-footer-nosotros {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.menu-footer-nosotros .titulo-menu-nosotros {
+	width: 28%;
+}
+
+.menu-nosotros {
+	display:block;
+	overflow:hidden;
+	width:40%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#block-bloquemision .block-title,
+#block-bloquevision .block-title {
+	width: 30%;
+}
+
+.path-frontpage .region-content,
+.page-node-34 .region-content,
+.page-node-35 .region-content,
+.page-node-36 .region-content,
+.page-node-37 .region-content,
+.page-node-38 .region-content {
+	width: 100%;
+}
+
+.region-content {
+	width: 1270px;
+	margin: 0 auto;
+}
+	
+#block-ubicacion .block-title {
+	overflow: hidden;
+	width: 1270px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+	
+.layout--twocol {
+	margin-bottom: 100px;
+}
+	
+.layout--twocol > .layout__region--first {
+	flex: 0 1 42%;
+}
+
+.layout--twocol > .layout__region--second {
+    flex: 0 1 58%;
+}
+
+.path-node h1 {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.path-node .region-content .layout--twocol {
+	margin-top: 30px;
+}
+
+.footer .link-muni a {
+	margin-left: 38%;
+}
+	
+.region-footer {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+/*.footer .logo-cultura,
+.footer .logo-muni {
+	width: 16%;
+}*/
+	
+.region-header .logo {
+	width: auto;
+}
+
+.region-header .block-views-blockrrss-block-1 {
+	width: auto;
+	float: right;
+	padding: 10px;
+	margin-top: 50px;
+}
+	
+.region-header {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.navbar-nav {
+	float:right;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+.region-navigation ul li {
+	display: inline;
+}
+	
+.fondo-bloque-intro{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/FONDO-BLOQUES-CABECERA.png);
+	background-repeat: no-repeat;
+	background-color:transparent;
+}
+
+.region-programacion {
+	display: none;
+	width: 100%;
+	background-image: url(../images/FONDO-BLOQUE-PROGRAMACION_2.jpg);
+	background-repeat: no-repeat;
+}
+
+#block-bloquecabeceranosotros .bloque-texto,
+#block-bloqueinicio .bloque-texto,
+#block-fondobloquesocios .bloque-texto,
+#block-fondobloqueprogramacion .bloque-texto,
+#block-fondobloquepatrimonio .bloque-texto,
+#block-fondobloqueformacionpagina .bloque-texto {
+	display: block;
+	overflow:hidden;
+	width: 1270px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+#block-bloqueinicio .bloque-texto .titulo-1,
+#block-bloquecabeceranosotros .bloque-texto .titulo-nosotros {
+	width: 40%;
+	margin-bottom: 30px;
+}
+
+#block-fondobloquesocios .bloque-texto .titulo-1,
+#block-fondobloqueprogramacion .bloque-texto .titulo-1 {
+	width: 60%;
+	margin-bottom: 30px;
+}
+
+#block-fondobloqueformacionpagina .bloque-texto .titulo-1 {
+	width: 85%;
+	margin-bottom: 30px;
+}
+
+#block-bloquecabeceranosotros .bloque-texto .titulo-nosotros h1 {
+	border-bottom: none;
+}
+
+#block-bloqueinicio .bloque-texto .parrafo-1,
+#block-bloquecabeceranosotros .bloque-texto .parrafo-nosotros,
+#block-fondobloquesocios .bloque-texto .parrafo-1,
+#block-fondobloqueprogramacion .bloque-texto .parrafo-1 {
+	width: 75%;
+}
+
+#block-fondobloquepatrimonio .bloque-texto .parrafo-1,
+#block-fondobloqueformacionpagina .bloque-texto .parrafo-1 {
+	width: 80%;
+}
+
+#block-fondobloqueformacionpagina .bloque-texto .parrafo-1 {
+	width: 85%;
+}
+
+#block-polocultural .bloque-polo-cultural {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+#block-polocultural .bloque-polo-cultural h1 {
+	width: 35%;
+}
+
+.centros-culturales {
+	display:block;
+	overflow: hidden;
+}
+
+.centros-culturales .lalo-parra {
+	display: block;
+	overflow: hidden;
+	width: 45%;
+	float: left;
+	margin-right: 100px;
+}
+
+.centros-culturales .javiera-carrera {
+	display: block;
+	overflow: hidden;
+	width: 45%;
+}
+
+.centros-culturales .foto-polos-culturales {
+	margin-bottom: 20px;
+	display: block;
+	overflow: hidden;
+}
+
+.centros-culturales .boton-ver-mas {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.block-views-blockprogramacion-block-1 {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.region-programacion .block-title {
+	margin-top: 40px;
+	width: 36%;
+}
+
+.view-programacion {
+	display: block;
+	overflow: hidden;
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.view-programacion,
+.view-programacion .view-content {
+	display:block;
+	overflow: hidden;
+}
+
+.block-views-blockprogramacion-block-1 .view-programacion .views-row {
+	height: auto;
+}
+
+
+.view-programacion .views-row {
+	display:block;
+	overflow: hidden;
+	width: 31%;
+	height: 680px;
+	float: left;
+}
+	
+.bloque-videos-11-septiembre .views-row {
+	float: left;
+	height: 300px;
+}
+
+.bloque-videos-vidadebarrios .views-row,
+.pagina-videos-vidadebarrios .views-row {
+    display: block;
+    overflow: hidden;
+    width: 31%;
+    height: 350px;
+    float: left;
+}
+
+.view-programacion .views-row-2,
+.view-programacion .views-row-5,
+.view-programacion .views-row-8 {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.more-link a {
+	width: 28%;
+}
+
+.block-views-blocknoticias-block-1 {
+	display: block;
+	overflow:hidden;
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.region-noticias .block-title {
+	width: 23%;
+}
+
+.view-noticias,
+.view-noticias .view-content {
+	display:block;
+	overflow:hidden;
+	margin-bottom: 20px;
+}
+
+.view-noticias .views-row {
+	display:block;
+	overflow: hidden;
+	width: 20%;
+	float: left;
+}
+
+.view-noticias .views-row-1,
+.view-noticias .views-row-2,
+.view-noticias .views-row-3 {
+	margin-right: 68px;
+}
+
+.region-feria-permanente {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.feria_permanente {
+	display:block;
+	width: 100%;
+	background-image: url(../images/FONDO-BLOQUE-FERIA_2.jpg);
+	background-repeat: no-repeat;	
+}
+
+.region-feria-permanente .block-title {
+	width: 80%;
+    margin-top: 40px;
+}
+
+.view-feria-permanente,
+.view-feria-permanente .view-content {
+	display:block;
+	overflow: hidden;
+}
+
+.region-feria-permanente .block-views {
+	display: block;
+	overflow: hidden;
+	width: 28%;
+	float: left;
+}
+
+.block-views-blockferia-permanente-block-1 .view-feria-permanente .views-field-title,
+.block-views-blockferia-permanente-block-2 .view-feria-permanente .views-field-title{
+	display: block;
+	overflow: hidden;
+	padding-bottom: 27px;
+    padding-top: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.block-views-blockferia-permanente-block-3 .view-feria-permanente .views-field-title {
+    padding-left: 20px;
+}
+
+.block-views-blockferia-permanente-block-1,
+.block-views-blockferia-permanente-block-2 {
+	margin-right: 97px;
+}
+
+.view-feria-permanente .more-link a {
+	width: 90%;
+}
+
+.region-talleres-culturales {
+	display:block;
+	overflow:hidden;
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.region-talleres-culturales .block-title {
+	width: 50%;
+}
+
+.view-talleres-culturales,
+.view-talleres-culturales .view-content {
+	display:block;
+	overflow:hidden;
+}
+
+.region-talleres-culturales .block-views {
+	display:block;
+	overflow:hidden;
+	width: 25%;
+	float: left;
+}
+
+.region-talleres-culturales .block-views .views-field-title {
+	width: 60%;
+}
+
+.region-talleres-culturales .block-views .views-field-field-segundo-titulo {
+	width: 85%;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-1,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-2,
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-4 {
+	margin-right: 130px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-4 {
+	margin-left: 210px;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-6 .view-content {
+	display: none;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-6 .more-link a {
+	width: 100%;
+}
+
+.region-talleres-culturales .block-views-blocktalleres-culturales-block-6 {
+	display: block;
+	overflow: hidden;
+	width: 25%;
+	float:none;
+	margin: 0 auto;
+}
+
+.audiovisual {
+	background-image: url(../images/fondo-bloque-audiovisual_2.jpg);
+	background-repeat: no-repeat;
+	padding-bottom: 125px;
+}
+
+.region-audiovisual {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.region-audiovisual .block-title {
+	width: 50%;
+    margin-top: 30px;
+    background-color: #e62579;
+}
+
+.view-registro-audiovisual,
+.view-registro-audiovisual .view-content {
+	display:block;
+	overflow:hidden;
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.view-registro-audiovisual .views-row {
+	display:block;
+	overflow:hidden;
+	width: 28%;
+	height: 520px;
+	float:left;
+}
+
+.path-frontpage .view-registro-audiovisual .views-row {
+	height: auto;
+}
+
+.view-registro-audiovisual .views-row-1,
+.view-registro-audiovisual .views-row-2,
+.view-registro-audiovisual .views-row-4,
+.view-registro-audiovisual .views-row-5,
+.view-registro-audiovisual .views-row-7,
+.view-registro-audiovisual .views-row-8 {
+	margin-right: 80px;
+}
+
+.view-registro-audiovisual .views-field-body {
+	background-color: #fff;
+	padding: 10px;
+}
+
+.region-registro-fotografico {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.region-registro-fotografico .block-title {
+	width: 60%;
+}
+
+.view-registro-fotografico,
+.view-registro-fotografico .view-content {
+	display:block;
+	overflow: hidden;
+}
+
+.view-registro-fotografico .views-row {
+	display:block;
+	overflow:hidden;
+	width: 30%;
+	float:left;
+}
+
+.view-registro-fotografico .views-field-title {
+	line-height: 32px;
+}
+
+.view-registro-fotografico .views-row-1,
+.view-registro-fotografico .views-row-2 {
+	margin-right: 40px;
+}
+
+.view-registro-fotografico .more-link {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.region-galerias-virtuales {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.region-galerias-virtuales .block-title {
+	width: 60%;
+}
+
+.region-galerias-virtuales,
+.region-galerias-virtuales .view-content {
+	display:block;
+	overflow: hidden;
+}
+
+.region-galerias-virtuales .views-row {
+	display:block;
+	overflow:hidden;
+	width: 30%;
+	float:left;
+}
+
+.region-galerias-virtuales .views-field-title {
+	line-height: 32px;
+}
+
+.region-galerias-virtuales .views-row-1,
+.region-galerias-virtuales .views-row-2 {
+	margin-right: 40px;
+}
+
+.region-galerias-virtuales .more-link {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+}
